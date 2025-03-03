@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-image: url(./image/monsters-6024508_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    padding-left: 40px;
+    font-family: "Knewave", system-ui;
+}
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    direction: ltr;
+    gap: 5px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: left;
+    font-family: "Knewave", system-ui;
+}
+
+.right {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(97, 97, 134, 0.352);
+    align-items: center;
+    margin-left: auto;
+    justify-content: center;
+}
+
+
+#cellContainer{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    text-align: center;
+}
+
+.cell{
+    width: 15vw;
+    height: 15vw;
+    border: 5px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 5vw;
+    cursor: pointer;
+}
+
+@media(max-width:780px){
+    .main-container{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .left{
+        margin: 20px;
+    }
+
+    .right{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .cell{
+        width: 25vw;
+        height: 25vw;
+        font-size: 10vw;
+    }
+}

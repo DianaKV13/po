@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 400px;
+    margin: 0;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px;
+    opacity: 0.9;
+    box-shadow: 20px 20px 10px rgb(122, 193, 185);
+    background: linear-gradient(to bottom, rgb(157, 221, 212), rgb(77, 137, 174));
+}
+
+input{
+    border-radius: 5px;
+    padding: 3px 10px;
+    border: none;
+    background-color: rgb(211, 245, 244);
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    padding: 3px 5px;
+}
+

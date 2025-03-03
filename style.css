@@ -366,6 +366,84 @@ p {
     cursor: pointer;
 }
 
+#projects-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 208, 208);
+    background-position: center;
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#projects-three h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#projects-three p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.projects-four {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    justify-items: center;
+    padding: 0 10px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.games {
+    width: 100%;
+    height: 300px;
+}
+
+.image-area4 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-area4:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+#img24{
+    background-image: url(image/one.png);
+}
+#img25{
+    background-image: url(image/two.png);
+}
+#img26{
+    background-image: url(image/three.png);
+}
+#img27{
+    background-image: url(image/four.png);
+}
+#img28{
+    background-image: url(image/five.png);
+}
+#img29{
+    background-image: url(image/six.png);
+}
+
 #contact-me {
     display: flex;
     width: 100%;
