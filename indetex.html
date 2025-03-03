@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div class="head">
+        <div id="img"></div>
+        <h2 class="name">Diana Kardosh</h2>
+        <div id="titles">
+            <a class="title" href="#work-file">ראשי</a>
+            <a class="title" href="#about-me">אודות</a>
+            <a class="title" href="#projects-one">שירותים</a>
+            <a class="title" href="#contact-me">צור קשר</a>
+        </div>
+
+        <div class="hamburger-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.title').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+
+    <div id="work-file">
+        <h1>תיק עבודה</h1>
+        <p>זה הפרויקט הראשון,זה הדף הראשי.</p>
+    </div>
+
+
+    <div class="img-area2">
+        <div class="image" id="img1"></div>
+        <div class="image" id="img2"></div>
+        <div class="image" id="img3"></div>
+        <div class="image" id="img4"></div>
+        <div class="image" id="img5"></div>
+        <div class="image" id="img6"></div>
+        <div class="image" id="img7"></div>
+        <div class="image" id="img8"></div>
+        <div class="image" id="img9"></div>
+        <div class="image" id="img10"></div>
+        <div class="image" id="img11"></div>
+    </div>
+
+
+    <div id="about-me">
+        <div class="my-pic2"></div>
+        <h2 class="about1">קצת עלי</h2>
+        <p>אני דיאנה קרדוש ווצחובסקיה, נולדתי באוקראינה, בת 19. כרגע אני עודבת בזרה ותוך כדאי לומדת. אוהבת להעביר
+            זמן עם
+            חברים, לקרוא, לשיר, והרבה יותר. החלום שלי לייצר משחקי מחשב אבל החלתתי להתחיל מכאן וניראה איך זה יתקדם.
+        </p>
+        <a href="דיאנה  כרדוש וויצ׳חובסקיה.zip" download="דיאנה  כרדוש וויצ׳חובסקיה.zip">
+            <button class="btn1">להורדת קורות חיים</button>
+        </a>
+    </div>
+
+
+    <div id="projects-one">
+        <h2>עבודות נבחרות</h2>
+        <p>כאן ניצן לראות את כול הדפי נחיתה</p>
+
+        <div class="projects-two">
+            <div class="box">
+                <div class="image-area3" id="img12"></div>
+                <div class="text-area">
+                    <h3>כאן ועכשיו</h3>
+                    <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,</p>
+
+                    <a href="./פרויקטים HTML/פרויקט 1/projectOne.html" target="_blank">
+                        <button class="btn2">לעמוד הפרויקט</button>
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image-area3" id="img13"></div>
+                <div class="text-area">
+                    <h3>תן לנו להוביל אותך קדימה</h3>
+                    <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,</p>
+
+                    <a href="./פרויקטים HTML/פרויקט 2/projectTwo.html" target="_blank">
+                        <button class="btn2">לעמוד הפרויקט</button>
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image-area3" id="img14"></div>
+                <div class="text-area">
+                    <h3>תן לנו להוביל אותך קדימה</h3>
+                    <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,</p>
+
+                    <a href="./פרויקטים HTML/פרויקט 3/projectThree.html" target="_blank">
+                        <button class="btn2">לעמוד הפרויקט</button>
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image-area3" id="img15"></div>
+                <div class="text-area">
+                    <h3>לגלות את העולם</h3>
+                    <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,</p>
+
+                    <a href="./פרויקטים HTML/פרויקט 4/projectFour.html" target="_blank">
+                        <button class="btn2">לעמוד הפרויקט</button>
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image-area3" id="img16"></div>
+                <div class="text-area">
+                    <h3>קפה טוב לבוקר טוב</h3>
+                    <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,</p>
+
+                    <a href="./פרויקטים HTML/פרויקט 5/projectFive.html" target="_blank">
+                        <button class="btn2">לעמוד הפרויקט</button>
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image-area3" id="img17"></div>
+                <div class="text-area">
+                    <h3>ייעוץ חינם</h3>
+                    <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,</p>
+
+                    <a href="./פרויקטים HTML/פרויקט 6/projectSix.html" target="_blank">
+                        <button class="btn2">לעמוד הפרויקט</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="contact-me">
+        <div class="inputs">
+            <h2>צור קשר</h2>
+            <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכ.</p>
+            <label for="">שם מלא</label>
+            <input type="text" placeholder="שם מלא" class="input">
+            <label for="">דוא״ל</label>
+            <input type="email" placeholder="דוא״ל" class="input">
+            <label for="">טלפון</label>
+            <input type="tel" class="input">
+            <label for="">תוכן ההודעה</label>
+            <input type="text" class="input" id="send-text">
+            <input type="submit" value="שליחה" class="btn3">
+        </div>
+        <div class="image2"></div>
+    </div>
+
+    <div class="links">
+        <div class="image3" id="img18"></div>
+        <div class="image3" id="img19"></div>
+        <div class="image3" id="img20"></div>
+        <div class="image3" id="img21"></div>
+        <div class="image3" id="img22"></div>
+        <div class="image3" id="img23"></div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(min-width:780px) {
+    #main-container {
+        display: flex;
+        background-image: url(./imageThree/Path.png);
+        width: 100%;
+        height: 82vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        direction: rtl;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+
+    #container-one {
+        background-position: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 8vh;
+        color: #D3E10E;
+    }
+
+    p {
+        color: white;
+        padding: 20px;
+        font-size: 2vh;
+    }
+
+    #container-two {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-position: center;
+        justify-content: center;
+        direction: rtl;
+        color: #011560;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+
+    .btn {
+        background-color: #D3E10E;
+        border: none;
+        height: 4vh;
+        width: 15vh;
+        margin: 2vh 4vh 0 0;
+    }
+}
+
+@media(max-width:780px) {
+    #main-container {
+        display: flex;
+        background-image: url(./imageThree/Group.png);
+        width: 100%;
+        height: 45vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        direction: rtl;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+
+    #container-one {
+        display: none;
+    }
+
+    #container-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-position: center;
+        justify-content: center;
+        direction: rtl;
+        color: #011560;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        margin: 80px;
+    }
+
+    .input {
+        margin-bottom: 25px;
+    }
+
+    .btn {
+        background-color: #D3E10E;
+        border: none;
+        height: 4vh;
+        width: 40vh;
+        margin: 2vh 4vh 0 0;
+    }
+}
+
+.style {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vh;
+    font-size: 14px;
+}
+
+.input {
+    height: 4vh;
+    width: 40vh;
+    background-color: #F6F6F6;
+    border: none;
+    border-bottom: 2px solid #D3E10E;
+}
